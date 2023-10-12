@@ -3,8 +3,8 @@
 import React from "react";
 import Image from "next/image";
 
-const phoneNumber = "+1234567890";
-const emailAddress = "example@email.com";
+const phoneNumber = "+91 6381806645";
+const emailAddress = "info@syedahamed.in";
 function ActionButtons() {
    const handlePhoneButtonClick = () => {
       window.location.href = `tel:${phoneNumber}`;

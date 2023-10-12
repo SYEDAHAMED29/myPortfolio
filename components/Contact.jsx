@@ -3,8 +3,8 @@
 import Image from "next/image";
 import React from "react";
 
-const phoneNumber = "+1234567890";
-const emailAddress = "example@email.com";
+const phoneNumber = "+91 6381806645";
+const emailAddress = "info@syedahamed.in";
 const linkedinLink = "https://www.linkedin.com/in/syed-aashiq-ahamed-6180a9187/";
 const instagramLink = "https://www.instagram.com/syed_ahamed16/";
 const twitterLink = "https://twitter.com/SyedAhamed29";
