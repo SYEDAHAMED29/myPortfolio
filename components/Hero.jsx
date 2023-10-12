@@ -2,8 +2,6 @@ import React from "react";
 import Image from "next/image";
 import ActionButtons from "./ActionButtons";
 
-import HeroHeading from "./heroHeading";
-
 function Hero() {
    return (
       <div className="xl:w-[1200px] lg:w-[1000px] md:w-[768px] sm:w-[600px] w-[320px] m-auto">
