@@ -23,7 +23,7 @@ function ActionButtons() {
             <Image
                width={18}
                height={18}
-               src="/images/phone.svg"
+               src="/images/Phone.svg"
                className="xl:w-8 xl:h-8 lg:w-8 lg:h-8 md:w-[25px] md:h-[25px]"
             />{" "}
             CALL ME
