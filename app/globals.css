@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+   scroll-behavior: smooth;
+}
+.gradient-bg {
+   background: linear-gradient(180deg, #0849ee 0%, #0ac5fe 100%);
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+}

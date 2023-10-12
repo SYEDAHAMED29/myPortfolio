@@ -1,8 +1,13 @@
 import "./globals.css";
-import {Inter} from "next/font/google";
+import {Source_Sans_3} from "next/font/google";
 import Gtag from "@/components/Gtag";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
-const inter = Inter({subsets: ["latin"]});
+const sourceSans = Source_Sans_3({
+   subsets: ["latin"],
+   display: "swap",
+});
 
 export const metadata = {
    title: "Create Next App",
@@ -12,8 +17,17 @@ export const metadata = {
 export default function RootLayout({children}) {
    return (
       <html lang="en">
+         <head>
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+            <title>Syed Aashiq Ahamed | Web Developer & Designer</title>
+         </head>
          <Gtag />
-         <body className={inter.className}>{children}</body>
+
+         <body className={`${sourceSans.className}  `}>
+            <Header />
+            {children}
+            <Footer />
+         </body>
       </html>
    );
 }
