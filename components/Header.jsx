@@ -55,7 +55,7 @@ function Header() {
                />
             </div>
             {toggle ? (
-               <div className="w-[200px]  flex flex-col gap-4 absolute right-4 text-center border-2 border-black bg-gray-50 bg-transparent opacity-95 rounded-xl text-custom-blue py-4 font-medium">
+               <div className="w-[200px]  flex flex-col gap-4 absolute right-4 text-center ring-2 ring-blue-200 bg-custom-blue  rounded-xl text-white py-4 font-medium">
                   <a href="#experience" onClick={() => setToggle(!toggle)}>
                      Experience
                   </a>

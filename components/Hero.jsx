@@ -14,12 +14,14 @@ function Hero() {
                cater to unique requirements.
             </p>
             <ActionButtons />
-            <Image
-               src="/images/hero-avatar.svg"
-               width={255}
-               height={255}
-               className="hidden lg:block xl:block md:block sm:hidden md:my-8"
-            />
+            <div className="mx-auto ">
+               <Image
+                  src="/images/hero-avatar.svg"
+                  width={200}
+                  height={150}
+                  className="lg:block xl:block md:block md:w-[255px] md:h-[255px]  md:my-8 my-6"
+               />
+            </div>
             <div className="flex justify-center items-center">
                <hr className="md:hidden w-[150px] h-[2px] bg-[#E6E6E6] mt-8 text-center" />
             </div>
