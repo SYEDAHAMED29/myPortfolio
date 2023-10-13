@@ -61,7 +61,7 @@ function Experience() {
                         <span className="text-custom-blue">{toggle ? "@Movate" : "@CssCorp"}</span>
                      </h3>
                      <p className="text-[12px] md:text-sm lg:text-base font-light">
-                        {toggle ? "July 2022 - August 2022" : "January 2022 - June 2022"}
+                        {toggle ? "July 2022 - August 2023" : "January 2022 - June 2022"}
                      </p>
                   </div>
                   <div className="my-3 space-y-2 md:space-y-4">
