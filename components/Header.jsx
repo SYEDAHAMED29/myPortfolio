@@ -63,16 +63,16 @@ function Header() {
             </div>
             {toggle ? (
                <div className="w-[200px]  flex flex-col gap-4 absolute right-4 text-center ring-2 ring-blue-200 bg-custom-blue  rounded-xl text-white py-4 font-medium">
-                  <a href="#experience" onClick={() => setToggle(!toggle)}>
+                  <a href="/#experience" onClick={() => setToggle(!toggle)}>
                      Experience
                   </a>
-                  <a href="#about" onClick={() => setToggle(!toggle)}>
+                  <a href="/#about" onClick={() => setToggle(!toggle)}>
                      About Me
                   </a>
-                  <a href="#projects" onClick={() => setToggle(!toggle)}>
+                  <a href="/#projects" onClick={() => setToggle(!toggle)}>
                      My Projects
                   </a>
-                  <a href="#contact" onClick={() => setToggle(!toggle)}>
+                  <a href="/#contact" onClick={() => setToggle(!toggle)}>
                      Contact Me
                   </a>
                </div>
