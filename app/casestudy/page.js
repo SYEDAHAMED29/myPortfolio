@@ -1,5 +1,5 @@
 import Contact from "@/components/Contact";
-import CaseStudyHero from "@/components/casestudyHero";
+
 import Image from "next/image";
 import React from "react";
 
