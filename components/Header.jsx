@@ -4,17 +4,24 @@ import Image from "next/image";
 import React, {useState} from "react";
 
 function Header() {
+   const handleClick = () => {
+      window.location.href = "/";
+   };
    const [toggle, setToggle] = useState(false);
    return (
       <header className="w-full ">
          <div className=" xl:w-[1200px] lg:w-[1000px] md:w-[768px] sm:w-[600px] w-[320px] m-auto relative">
             <div className="flex items-center justify-between xl:h-[100px] lg:h-[100px] md:h-[100px] sm:h-[80px] h-[60px]">
-               <div className="flex items-center xl:gap-4 lg:gap-4 md:gap-4 sm:gap-2 gap-2 ">
+               <div
+                  className="flex items-center xl:gap-4 lg:gap-4 md:gap-4 sm:gap-2 gap-2 cursor-pointer"
+                  onClick={handleClick}
+               >
                   <Image
                      src="/images/logo-portfolio.svg"
                      width={48}
                      height={48}
                      className="xl:w-[78px] xl:h-[78px] lg:w-[78px] lg:h-[78px] md:w-[60px] md:h-[60px]   "
+                     alt="Logo"
                   />
                   <h1 className="xl:text-2xl lg:text-2xl md:text-2xl sm:text-2xl text-lg font-extrabold  gradient-bg">
                      SYED AASHIQ AHAMED
