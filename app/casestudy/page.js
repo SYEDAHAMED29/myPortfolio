@@ -3,6 +3,11 @@ import Contact from "@/components/Contact";
 import Image from "next/image";
 import React from "react";
 
+export const metadata = {
+   title: "Syed Aashiq Ahamed | The Eternaa CaseStudy",
+   description: "CaseStudy of The Eternaa Skin and Hair clinic Website.",
+};
+
 const technologies = [
    "Nextjs",
    "TailwindCSS",
