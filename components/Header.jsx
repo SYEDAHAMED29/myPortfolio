@@ -62,16 +62,21 @@ function Header() {
                />
             </div>
             {toggle ? (
-               <div className="w-[200px]  flex flex-col gap-4 absolute right-4 text-center ring-2 ring-blue-200 bg-custom-blue  rounded-xl text-white py-4 font-medium">
+               <div className="w-full flex flex-col gap-4 absolute justify-center items-center   bg-transparent opacity-95 bg-blue-800 ring-4 ring-blue-400 rounded-md text-white py-4 font-medium text-lg mt-2">
                   <a href="/#experience" onClick={() => setToggle(!toggle)}>
                      Experience
                   </a>
+                  <hr className=" w-full text-center " />
                   <a href="/#about" onClick={() => setToggle(!toggle)}>
                      About Me
                   </a>
+                  <hr className=" w-full text-center" />
+
                   <a href="/#projects" onClick={() => setToggle(!toggle)}>
                      My Projects
                   </a>
+                  <hr className=" w-full text-center" />
+
                   <a href="/#contact" onClick={() => setToggle(!toggle)}>
                      Contact Me
                   </a>
@@ -85,3 +90,20 @@ function Header() {
 }
 
 export default Header;
+
+{
+   /* <div className="w-full  flex flex-col gap-4 absolute right-4 text-center ring-2 ring-blue-200 bg-custom-blue  rounded-xl text-white py-4 font-medium">
+   <a href="/#experience" onClick={() => setToggle(!toggle)}>
+      Experience
+   </a>
+   <a href="/#about" onClick={() => setToggle(!toggle)}>
+      About Me
+   </a>
+   <a href="/#projects" onClick={() => setToggle(!toggle)}>
+      My Projects
+   </a>
+   <a href="/#contact" onClick={() => setToggle(!toggle)}>
+      Contact Me
+   </a>
+</div>; */
+}
