@@ -59,8 +59,8 @@ function OtherProjects() {
             <hr className="w-[80px] h-0.5 bg-custom-gold  md:h-1 md:w-[200px] md:my-2 " />
          </div>
          <div className="lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 sm:grid sm:grid-cols-2 md:gap-y-24 xl:gap-x-0  grid grid-col-1 gap-12 xl:justify-center xl:items-center  ">
-            {projectInfo.map((project) => (
-               <Card project={project} />
+            {projectInfo.map((project, index) => (
+               <Card key={index} project={project} />
             ))}
          </div>
       </section>

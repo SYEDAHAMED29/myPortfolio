@@ -34,9 +34,14 @@ function Projectjs() {
                         insights.
                      </p>
                      <div className="flex gap-6 justify-center items-center md:justify-start">
-                        <Image src="/images/goto.svg" width={32} height={42} alt="Link Icon" />
+                        <a
+                           href="https://www.theeternaa.com/
+                        "
+                        >
+                           <Image src="/images/goto.svg" width={32} height={42} alt="Link Icon" />
+                        </a>
                         <Link
-                           className="bg-custom-blue text-white font-bold px-[50px] py-[10px] md:py-[15px] rounded-lg shadow-lg "
+                           className="bg-custom-blue text-white font-bold px-[50px] py-[10px] md:py-[15px] rounded-lg shadow-lg hover:bg-blue-500 "
                            href="/casestudy"
                         >
                            CASE STUDY

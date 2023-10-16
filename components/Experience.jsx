@@ -56,11 +56,11 @@ function Experience() {
                </div>
                <div className="md:w-[450px]">
                   <div>
-                     <h3 className="text-base md:text-xl lg:text-2xl font-semibold">
+                     <h3 className="text-xl lg:text-2xl font-semibold">
                         {toggle ? "Engineer" : "Internship Trainee"}{" "}
                         <span className="text-custom-blue">{toggle ? "@Movate" : "@CssCorp"}</span>
                      </h3>
-                     <p className="text-[12px] md:text-sm lg:text-base font-light">
+                     <p className="text-sm md:text-sm lg:text-base font-light">
                         {toggle ? "July 2022 - August 2023" : "January 2022 - June 2022"}
                      </p>
                   </div>
@@ -75,7 +75,7 @@ function Experience() {
                                     height={18}
                                     className="md:w-7 md:h-7"
                                  />
-                                 <p className="text-xs md:text-sm lg:text-lg font-light">{exp}</p>
+                                 <p className="text-sm md:text-sm lg:text-lg font-light">{exp}</p>
                               </div>
                            ))}
                         </>
@@ -89,7 +89,7 @@ function Experience() {
                                     height={18}
                                     className="md:w-7 md:h-7"
                                  />
-                                 <p className="text-xs md:text-sm lg:text-lg font-light">{exp}</p>
+                                 <p className="text-sm lg:text-lg font-light">{exp}</p>
                               </div>
                            ))}
                         </>

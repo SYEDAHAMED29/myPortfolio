@@ -31,10 +31,10 @@ function About() {
          </div>
          <div className="flex lg:flex-row lg:gap-20 md:gap-12 gap-6 flex-col">
             <div className="lg:w-1/2 md:w-full">
-               <h1 className="font-bold md:text-3xl sm:text-xl md:mb-8 mb-4  text-custom-blue">
+               <h1 className="font-bold md:text-3xl text-xl md:mb-8 mb-4  text-custom-blue">
                   Get To Know Me!!!
                </h1>
-               <div className="md:leading-[24px] leading-[18px] space-y-4 md:font-normal md:text-base sm:text-sm text-xs font-normal">
+               <div className="md:leading-[24px] leading-[22px] space-y-4 md:font-normal md:text-base sm:text-sm text-sm font-normal text-justify">
                   <p>
                      My journey into the world of web development began in my first year of College
                      (2018), fueled by a desire to build my own website. In the beginning, I tried
@@ -44,13 +44,27 @@ function About() {
                   </p>
                   <p>
                      So, I decided to learn web development from scratch. I began with the basics:
-                     HTML, CSS, and JavaScript. I practiced by working on projects from Frontend
-                     Mentor. These projects helped me learn how to design web pages and make them
-                     look good.
+                     HTML, CSS, and JavaScript. I practiced by working on projects from{" "}
+                     <a
+                        href="https://frontendmentor.io/"
+                        className="text-gray-900 font-extrabold underline underline-offset-2"
+                        target="_blank"
+                     >
+                        Frontend Mentor
+                     </a>{" "}
+                     These projects helped me learn how to design web pages and make them look good.
                   </p>
                   <p>
-                     Later, I learned ReactJS, a tool for building more advanced web applications.
-                     With React, I could make web pages that are interactive and dynamic.
+                     Later, I learned{" "}
+                     <a
+                        href="https://reactjs.org/"
+                        className="text-gray-900 font-extrabold underline underline-offset-2"
+                        target="_blank"
+                     >
+                        ReactJs
+                     </a>
+                     , a tool for building more advanced web applications. With React, I could make
+                     web pages that are interactive and dynamic.
                   </p>
                   <p>
                      I also learned about backend technologies to enhance my skills. This allowed me
@@ -59,7 +73,7 @@ function About() {
                </div>
             </div>
             <div className="lg:w-1/2 md:w-full">
-               <h1 className="font-bold md:text-3xl md:mb-8 mb-4  text-custom-blue sm:text-xl">
+               <h1 className="font-bold md:text-3xl text-xl md:mb-8 mb-4  text-custom-blue sm:text-xl">
                   My Skills
                </h1>
                <div className="flex flex-wrap md:gap-3 gap-2">
