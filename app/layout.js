@@ -20,7 +20,7 @@ export default function RootLayout({children}) {
          <head>
             <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
             <title>Syed Aashiq Ahamed | Web Developer & Designer</title>
-            <script src="https://cdn-in.pagesense.io/js/n1nmxvfc/1fe55dbbc34e4e2289db1c975e91b423.js"></script>
+            {/* <script src="https://cdn-in.pagesense.io/js/n1nmxvfc/1fe55dbbc34e4e2289db1c975e91b423.js"></script> */}
 
          </head>
          <Gtag />
