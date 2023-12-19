@@ -22,7 +22,9 @@ export default function RootLayout({children}) {
             <title>Syed Aashiq Ahamed | Web Developer & Designer</title>
             <script src="https://cdn-in.pagesense.io/js/n1nmxvfc/1fe55dbbc34e4e2289db1c975e91b423.js"></script>
             <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=85d3f351"></script>
-
+            
+            <script src="https://cdn.intake-lr.com/LogRocket.min.js" crossorigin="anonymous"></script>
+<script>window.LogRocket && window.LogRocket.init('wr7svt/first-project');</script>
          </head>
          <Gtag />
 
