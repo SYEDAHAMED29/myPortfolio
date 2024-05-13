@@ -81,7 +81,7 @@ function Experience() {
                     <span className="text-custom-blue">@Beamer</span>
                   </h3>
                   <p className="text-sm md:text-sm lg:text-base font-light">
-                    Novermber 2024 - Present
+                    Novermber 2023 - Present
                   </p>
                 </>
               )}
