@@ -38,7 +38,7 @@ function Header() {
               href="/#experience"
               className="hover:text-custom-blue hover:underline hover:underline-offset-8"
             >
-              `` EXPERIENCE
+              EXPERIENCE
             </a>
             <a
               href="/#projects"
